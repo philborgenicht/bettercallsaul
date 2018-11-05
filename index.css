@@ -1,0 +1,73 @@
+.parallax {
+  /* The image used */
+
+background-image: url("courtroom.jpg");
+/* Full height */
+height: 100%;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.parallax2 {
+  /* The image used */
+
+background-image: url("justice.jpg");
+/* Full height */
+height: 100%;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.parallax3 {
+  /* The image used */
+
+background-image: url("lobby.jpg");
+/* Full height */
+height: 100%;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.describe{
+  font-size: 35px;
+  padding:100px
+}
+
+main{
+  padding:20px
+}
+
+html{
+  height:100%;
+}
+
+body{
+  height: 100%;
+  background-color: #BC3908;
+  font-family: 'Cinzel', serif;
+}
+
+h1{
+  font-size: 60px;
+  padding-top: 20px;
+  padding-left: 40px;
+  color:white;
+  font-weight: bold;
+}
+
+footer{
+  padding: 20px;
+  color: white;
+  font-size: 25px;
+  background-color: #BC3908
+}

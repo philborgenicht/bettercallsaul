@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="forms.css">
+    <script type="text/javascript" src="forms.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Welcome to Albuquerque</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signup.html">signup</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About the Team
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="saul.html">Saul Goodman</a>
+              <a class="dropdown-item" href="kim.html">Kim Wexler</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="clients.html">Client Testimonials</a>
+            </div>
+          </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+
+<h1>Tell Us A Little Bit About Yourself</h1>
+
+
+<div class="parallax"></div>
+<div class="parallax2"></div>
+<div class="container">
+
+
+<form id="userinput">
+
+  <h1>Members Portal</h1>
+  <p>Please tell us a little bit about yourself and one of our team members will get back to you within 1-2 business days</p>
+
+
+
+
+  <label for="first-name"> first name
+    <input type="text" id="first-name" required>
+  </label>
+  <br><br>
+
+  <label for="last-name"> last name
+    <input type="text" id="last-name" required>
+  </label>
+  <br><br>
+
+<label for="email"> email address
+  <input type="email" id="email" required>
+</label>
+<br><br>
+
+
+<label for="phone-number"> phone number
+  <input type="tel" id="phone-number" maxlength="10" required>
+</label>
+<br><br>
+
+<label for="username"> username
+  <input type="username" id="username" minlength="8" maxlength="16" required>
+</label>
+<br><br>
+
+
+<h2>While all of our attorneys are happy to help, depending on their current workloads,
+  they may have differing availabilities.<br>If you do happen to have a preferred team member,
+  please let us know below
+</h2>
+<br><br>
+<label for="Saul">
+Saul G.
+  <input type="radio" name="preferred attorney" id= "Saul"  checked>
+</label>
+<br><br>
+
+<label for="Kim">
+Kim W.
+  <input type="radio" name="preferred attorney" id = "Kim">
+</label>
+<br><br>
+
+<label for="none">
+No preference  (soonest available)
+  <input type="radio" name="preferred attorney" id="none">
+</label>
+<br><br>
+
+<h3>
+  If you are a returning client and have worked with Saul or Kim in the past,
+  please click check the box to be taken to our existing client portal.
+</h3>
+<br><br>
+
+
+<label for="signup">
+Returning Client
+<input type="checkbox" name="signup" id= "signup">
+</label>
+
+<br><br>
+<h3>Once you have completed filling out the form, please click "Finished" to subimt your info to our team!<br><br><br>
+  Thanks for stopping by!
+</h3>
+<button type="submit" id="submit" class="btn-lg btn-danger"> Finished </button>
+
+</form>
+
+<div>
+<p> Please Click Below to Review Your Submission</p>
+  <button><a href="forms2.html"/> Review </button>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+
+
+
+<footer>
+<div class="container-fluid">
+
+
+
+  <div class="row">
+    <div class="col6">
+  <h6 id="contact-us"> Better Call Saul Law Offices
+  </h6>
+  <p>9800 Montgomery Boulevard, Albuquerque, New Mexico
+  </p>
+  <p>Saul: 505-842-5662 || saul@bettercallsaul.com
+  </p>
+  <p>Kim: 505-842-5663 || kim@bettercallsaul.com
+  </p>
+  <p>Fax: 505-842-5664
+  </p>
+  <p>Office Hours: Monday - Sunday 7 a.m. - 7 p.m.
+  </p>
+  </div>
+
+  <div class="col6">
+    <img src="bcs.png">
+  </div>
+</div>
+
+</div>
+</footer>
+  </body>
+</html>

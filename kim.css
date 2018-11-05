@@ -1,0 +1,66 @@
+.parallax{
+  /* The image used */
+
+background-image: url("boardroom.jpg");
+/* Full height */
+height: 100%;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.parallax2 {
+  /* The image used */
+
+background-image: url(freedom.jpg);
+/* Full height */
+height: 100%;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.parallax3 {
+  /* The image used */
+
+background-image: url("lobby.jpg");
+/* Full height */
+height: 100%;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+html{
+  height:100%;
+}
+
+body{
+  height: 100%;
+  background-color:#941B0C;
+  font-family: 'Cinzel', serif;
+}
+
+.small{
+  font-size: 15px;
+}
+
+.kimbio{
+  font-size: 25px;
+}
+
+footer{
+  padding: 20px;
+  font-size: 25px;
+  color: white;
+  background-color: #F6AA1C;
+}

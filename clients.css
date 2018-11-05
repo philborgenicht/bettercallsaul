@@ -1,0 +1,70 @@
+.parallax {
+  /* The image used */
+
+background-image: url("prison.jpg");
+/* Full height */
+height: 100%;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.parallax2 {
+  /* The image used */
+
+background-image: url("freedom.jpg");
+/* Full height */
+height: 100%;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.parallax3 {
+  /* The image used */
+
+background-image: url("lobby.jpg");
+/* Full height */
+height: 100%;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+img{
+  width: 50%;
+  border-radius: 30px
+}
+
+html{
+  height:100%;
+}
+
+body{
+  height: 100%;
+  background-color: #220901;
+  font-family: 'Cinzel', serif;
+  color:white;
+}
+
+#pictures{
+
+  color: white;
+}
+
+#huell{
+  padding-top: 15px
+}
+
+footer{
+  padding: 20px;
+  font-size: 25px;
+  color: white;
+}
